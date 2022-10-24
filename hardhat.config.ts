@@ -12,8 +12,8 @@ const config: HardhatUserConfig = {
   },
   defaultNetwork: "hardhat",
   networks: {
-    goerly: {
-      url: process.env.GOERLY_RPC_URL,
+    goerli: {
+      url: process.env.GOERLI_RPC_URL,
       accounts: [process.env.PRIVATE_KEY!],
       chainId: 5,
     },
@@ -37,7 +37,7 @@ const config: HardhatUserConfig = {
     deployer: {
       default: 0,
       // chainId: accountIndex
-      // 5: 1 // goerly network, account with index 1 in the array
+      // 5: 1 // goerli network, account with index 1 in the array
     },
   },
 };

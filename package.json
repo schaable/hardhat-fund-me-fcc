@@ -11,7 +11,7 @@
     "lint": "yarn solhint 'contracts/*.sol'",
     "lint:fix": "yarn solhint 'contracts/*.sol' --fix",
     "test": "yarn hardhat test",
-    "test:staging": "yarn hardhat test --network goerly"
+    "test:staging": "yarn hardhat test --network goerli"
   },
   "dependencies": {
     "@chainlink/contracts": "^0.5.1"
